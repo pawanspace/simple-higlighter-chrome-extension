@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Text Highlighter",
+  "description": "This extension provides a feature to highligh text using highlighter.",
+  "version": "1.0",
+
+  "background": {
+        "scripts": ["background.js"]
+    },
+
+  "permissions": [
+  	 "tabs", "http://*/*", "https://*/*"
+  ],
+
+  "browser_action": {
+  	"default_title": "Simple Highlighter",
+    "default_icon": "icon.png"
+  }
+}
